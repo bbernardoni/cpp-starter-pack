@@ -267,7 +267,7 @@ void strategy(){
 	}else if (opponent._scissors >= 2*opponent._paper && opponent._scissors >= 2*opponent._rock
 			&& stance == "Paper"){
 		stance = random_except_stance("Paper");
-	}
+	}*/
 	
 	if (turn <= 300 && api->has_monster(stance_location)){
 		Monster monster = api->get_monster(stance_location);
